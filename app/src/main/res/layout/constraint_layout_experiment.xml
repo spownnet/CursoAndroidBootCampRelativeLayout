@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnsiete"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/strsiete"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="@+id/txtresult"
+        app:layout_constraintTop_toBottomOf="@+id/txtresult" />
+
+    <Button
+        android:id="@+id/btnequal"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strigual"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btnplusminus"
+        app:layout_constraintStart_toEndOf="@+id/btnplusminus"
+        app:layout_constraintTop_toBottomOf="@+id/btnpor" />
+
+    <Button
+        android:id="@+id/btnpor"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/strpor"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btnthree"
+        app:layout_constraintStart_toEndOf="@+id/btnthree" />
+
+    <Button
+        android:id="@+id/btnplus"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/strplus"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btnseis"
+        app:layout_constraintStart_toEndOf="@+id/btnseis" />
+
+    <Button
+        android:id="@+id/btnmenos"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/strmenos"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btnnueve"
+        app:layout_constraintStart_toEndOf="@+id/btnnueve" />
+
+    <Button
+        android:id="@+id/btnplusminus"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strentre"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btnpoint"
+        app:layout_constraintStart_toEndOf="@+id/btnpoint"
+        app:layout_constraintTop_toBottomOf="@+id/btnthree" />
+
+    <Button
+        android:id="@+id/btnpoint"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strpunto"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintStart_toEndOf="@+id/btnzero"
+        app:layout_constraintTop_toBottomOf="@+id/btntwo" />
+
+    <Button
+        android:id="@+id/btnzero"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/strcero"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="@+id/btnone"
+        app:layout_constraintTop_toBottomOf="@+id/btnone" />
+
+    <Button
+        android:id="@+id/btnthree"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strtres"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btntwo"
+        app:layout_constraintStart_toEndOf="@+id/btntwo"
+        app:layout_constraintTop_toBottomOf="@+id/btnseis" />
+
+    <Button
+        android:id="@+id/btntwo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strdos"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btnone"
+        app:layout_constraintStart_toEndOf="@+id/btnone"
+        app:layout_constraintTop_toBottomOf="@+id/btncinco" />
+
+    <Button
+        android:id="@+id/btnone"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/struno"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="@+id/btncuatro"
+        app:layout_constraintTop_toBottomOf="@+id/btncuatro" />
+
+    <Button
+        android:id="@+id/btnseis"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strseis"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btncinco"
+        app:layout_constraintStart_toEndOf="@+id/btncinco"
+        app:layout_constraintTop_toBottomOf="@+id/btnnueve" />
+
+    <Button
+        android:id="@+id/btncinco"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strcinco"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btncuatro"
+        app:layout_constraintStart_toEndOf="@+id/btncuatro"
+        app:layout_constraintTop_toBottomOf="@+id/btnocho" />
+
+    <Button
+        android:id="@+id/btncuatro"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/strcuatro"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="@+id/btnsiete"
+        app:layout_constraintTop_toBottomOf="@+id/btnsiete" />
+
+    <Button
+        android:id="@+id/btnocho"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/strocho"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btnsiete"
+        app:layout_constraintStart_toEndOf="@+id/btnsiete" />
+
+    <Button
+        android:id="@+id/btnnueve"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/strnueve"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/btnocho"
+        app:layout_constraintStart_toEndOf="@+id/btnocho" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="361dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/textbacground"
+        android:gravity="end"
+        android:text="@string/strresultado"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

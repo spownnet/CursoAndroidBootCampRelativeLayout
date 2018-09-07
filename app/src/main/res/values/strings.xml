@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+    <string name="strtext1">Hola que tal</string>
+    <string name="strtext2">Soy el siguiente texto</string>
+    <string name="strbutton">Soy un Boton</string>
+    <string name="strswitch">Soy un Switch</string>
+    <string name="strsiete">7</string>
+    <string name="strigual">=</string>
+    <string name="strpor">*</string>
+    <string name="strplus">+</string>
+    <string name="strmenos">-</string>
+    <string name="strentre">/</string>
+    <string name="strpunto">.</string>
+    <string name="strcero">0</string>
+    <string name="strtres">3</string>
+    <string name="strdos">2</string>
+    <string name="struno">1</string>
+    <string name="strseis">6</string>
+    <string name="strcinco">5</string>
+    <string name="strcuatro">4</string>
+    <string name="strocho">8</string>
+    <string name="strnueve">9</string>
+    <string name="strresultado">0.00</string>
+</resources>
